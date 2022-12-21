@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive fitness and gym website design</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts      -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <span>STRENGTH</span> GYM </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="home.html">home</a>
+        <a href="about.html">about</a>
+        <a href="features.html">features</a>
+        <a href="pricing.html">pricing</a>
+        <a href="trainers.html">trainers</a>
+        <a href="review.html">Review</a>
+        
+    </nav>
+
+</header>
+
+<!-- header section ends     -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(images/home-bg-1.jpg) no-repeat;">
+                <div class="content">
+                    <span>be strong, be fit</span>
+                    <h3>Make yourself stronger than your excuses.</h3>
+                    
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-bg-2.jpg) no-repeat;">
+                <div class="content">
+                    <span>Every Step Is Progress</span>
+                    <h3>Nothing Is Work Unless You Do .</h3>
+                    
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-bg-3.jpg) no-repeat;">
+                <div class="content">
+                    <span>fitness its a way of life</span>
+                    <h3>Push Through The Pain Every Single Day.</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- home section ends -->
+<!-- banner section starts  -->
+<section class="banner">
+    <span>join us now</span>
+    <h3>get upto 50% discount</h3>
+    <p> JOIN FAST</p>
+</section>
+<!-- banner section ends -->
+<!-- footer section starts  -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            
+        </div>
+        <div class="box">
+            <h3>opening hours</h3>
+            <p> monday : <i> 7:00am - 10:30pm </i> </p>
+            <p> tuesday : <i> 7:00am - 10:30pm </i> </p>
+            <p> wednesday : <i> 7:00am - 10:30pm </i> </p>
+            <p> friday : <i> 7:00am - 10:30pm </i> </p>
+            <p> saturday : <i> 7:00am - 10:30pm </i> </p>
+            <p> sunday : <i> closed </i> </p>
+        </div>
+        <div class="box">
+            <h3>opening hours</h3>
+            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+            <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
+            <p> <i class="fas fa-envelope"></i> naziyamujawar20@gmail.com </p>
+            <p> <i class="fas fa-map"></i> miraj, india - 416410 </p>
+            <div class="share">
+                <a href="" class="fab fa-facebook-f"></a>
+                <a href="" class="fab fa-twitter"></a>
+                <a href="" class="fab fa-linkedin"></a>
+                <a href="" class="fab fa-pinterest"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>LOGIN</h3>
+            <p>Enter Username and Password</p>
+            <form action="">
+                <input type="username"  class="Username" placeholder=" Username" id="u1"><br><br>
+                <input type="password"  class="Password" placeholder=" Password" id="p1"><br>
+                <input type="submit" value="LOGIN" class="btn" onclick="call()" >
+                <input type="reset" value="RESET" class="btn" >
+            </form>
+            <script>
+                 function call(){
+                    if(document.getElementById("u1").value == "")
+                    {
+                        alert("Please enter username")
+                    }
+                    else if(document.getElementById("p1").value == "")
+                    {
+                        alert("Please enter password")
+                    }
+                    else
+                    {
+                        alert("submited.......")
+                    }
+                 }
+            </script>
+        </div>
+    </div>
+</section>
+<div class="credit"> created by <span>Ms.Naziya Mujawar</span>  </div>
+<!-- footer section ends -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
